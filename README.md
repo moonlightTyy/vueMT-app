@@ -14,6 +14,7 @@ npm run start
 - 访问：http://localhost:3000/ 会有一个nuxtjs的图标出现，代表环境搭配成功
 
 `第二步：处理babel`
+
 增加 babel-node 处理（使用ES6的import指令问题）
 在上文讲解 nuxtjs基础 我们是可以直接用 import 操作的，因为使用模板，里面增加了babel的处理，但当我们使用官方脚手架时，是没有增加babel处理的。需要手动解决。
 - 在 dev 和 start 后面添加 --exec babel-node
@@ -38,16 +39,19 @@ npm run dev
 - 访问：http://localhost:3000/ 会有一个nuxtjs的图标出现，代表环境搭配成功
 
 `第三步：处理sass`
+
 在style处添加lang="sass"会出现报错，因为没有添加sass-loader
 - npm install sass-loader node-sass
 出现警告，按照警告执行下述命令
-
 - npm install sass@^1.3.0 fibers@>= 3.1.0
+
 `第四步：修改nuxt.config.js中css的配置`
+
 'element-ui/lib/theme-chalk/reset.css',
 
 ### 6月8日：项目开发第一天
 `第一步：需求分析`
+
 模板设计：解决复用性的问题
 组件设计：如何把具象的组件抽象成灵活的合理的组件（拆分组件）
 数据结构设计：vm模式主要依赖于数据和组件
