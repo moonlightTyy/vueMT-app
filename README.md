@@ -51,6 +51,7 @@ npm run dev
 组件设计：如何把具象的组件抽象成灵活的合理的组件（拆分组件）
 数据结构设计：vm模式主要依赖于数据和组件
 接口设计：与数据结构相对应
+
 `第二步：首页Header开发`
 - 导入css，然后打开 nuxt.config.js 进行配置'@/assets/css/main.css'
 - 设置vue组件模板 file->preferences->user snippets->vue.json进行设置
@@ -61,6 +62,7 @@ npm run dev
 - 将geo、user、nav融合在topbar中
 - 将topbar、searchbar(搜索栏)融合在index.vue中
 到此完成首页头部部分
+
 `第三步：首页菜单开发`
 - 编写pages下的index.vue文件
 - 编写components下的menu.vue(内容部分的左侧全部分类)
