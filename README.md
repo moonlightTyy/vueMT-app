@@ -41,8 +41,9 @@ npm run dev
 在style处添加lang="sass"会出现报错，因为没有添加sass-loader
 - npm install sass-loader node-sass
 出现警告，按照警告执行下述命令
+
 - npm install sass@^1.3.0 fibers@>= 3.1.0
-`第四部：修改nuxt.config.js中css的配置`
+`第四步：修改nuxt.config.js中css的配置`
 'element-ui/lib/theme-chalk/reset.css',
 
 ### 6月8日：项目开发第一天
@@ -71,7 +72,7 @@ npm run dev
 - 每一项后面的详细内容如何显示？
 - 鼠标离开菜单，详细页不消失，离开详情页才消失，怎么实现？
 
-`第四部：完成首页的其余部分`
+`第四步：完成首页的其余部分`
 - footer 以及life和slider基本都是静态的内容，非常简单
 
 
