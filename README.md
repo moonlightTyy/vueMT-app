@@ -83,6 +83,7 @@ npm run dev
 ul与ol前的符号是可以修改的。只需要修改它们的type值。
 - ul的type属性有：disc—实心圆(默认）、circle—空心圆、square—实心方块
 - ol的type属性有：1—数字（默认）、a—小写字母、A—大写字母、i—小写希腊字母、I—大写希腊字母。
+
 链接：https://www.jianshu.com/p/4807c9594846
 
 #### 3.computed 计算属性？为什么要用计算属性，计算属性的原理是什么？
@@ -98,8 +99,10 @@ ul与ol前的符号是可以修改的。只需要修改它们的type值。
 `第一步：实现用户注册页面`
 - 新建pages下的register.vue并引入新建的blank模板 
 element UI 表单验证的使用比较复杂，可以多参考register.vue中表单验证的使用。
+
 `第二步:实现登录页面`
 - 新建pages下的login.vue并引入新建的blank模板(简单)
+
 `第三部：实现数据接口`
 - 新建server下的dbs文件夹及文件
 ### 6月10日 ：项目开发的第三天
