@@ -110,8 +110,29 @@ element UI 表单验证的使用比较复杂，可以多参考register.vue中表
 `第二步:实现登录页面`
 - 新建pages下的login.vue并引入新建的blank模板(简单)
 
-`第三部：实现数据接口`
+`第三部：创建server数据接口文件`
 - 新建server下的dbs文件夹及文件
-### 6月10日 ：项目开发的第三天
+### 6月15日 ：项目开发的第三天
+`第一步：创建config.js配置文件`
+- 配置数据库
+- 配置SMTP服务——邮箱-设置-用户-开启POP3/SMTP服务+IMAP/SMTP服务-生成授权码
+(还需要nodemailer模块来配合)
+`第二步：配置用户模型`
+- 安装并导入mongoose模块
+- 创建模式
+- 导出模型
+`第三步：配置用户接口`
+- 安装并导入模块 koa-router koa-redis  nodemailer
+`第四步：配置utils`
+- 安装并导入模块 axios koa-passport passport-local
+`第五步：配置server下的index.js——服务的入口文件`
+
+
+
+`总结`
+#### 思考为什么要返回函数而不是直接返回常数？
+#### 思考为什么要用到redis？
+#### mongoose模型名与表名的关系
+#### new Date().getTime() - saveExpire > 0判断是否过期？
 
 

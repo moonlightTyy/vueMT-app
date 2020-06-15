@@ -76,6 +76,8 @@
 </template>
 
 <script>
+import CryptoJS from 'crypto-js'
+import axios from 'axios'
         export default {
           data() {
             return {
@@ -126,7 +128,7 @@
             }
           },
           layout: 'blank',
-         /*  methods: {
+           methods: {
             sendMsg: function () {
               const self = this;
               let namePass
@@ -145,7 +147,7 @@
                 emailPass = valid
               })
               if (!namePass && !emailPass) {
-                self.$axios.post('/users/verify', {
+                axios.post('/users/verify', {
                   //设置中文编码
                   username: encodeURIComponent(self.ruleForm.name),
                   email: self.ruleForm.email
@@ -174,7 +176,7 @@
               let self = this;
               this.$refs['ruleForm'].validate((valid) => {
                 if (valid) {
-                  self.$axios.post('/users/signup', {
+                  axios.post('/users/signup', {
                     //设置中文编码
                     username: window.encodeURIComponent(self.ruleForm.name),
                     //使用MD5进行密码加密，MD5处理之后会有很多值，并不是hash值，于是需要toString()函数
@@ -203,7 +205,7 @@
                 }
               })
             }
-          } */
+          }
         }
 </script>
 
