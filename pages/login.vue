@@ -41,6 +41,7 @@
 
 <script>
 import CryptoJS from 'crypto-js'
+import axios from 'axios'
 export default {
     data: () => {
     return {
