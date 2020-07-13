@@ -24,7 +24,7 @@ export default {
     },
     get pass() {
       //授权码(要保密)
-      return 'kccwxygjyuasbdfj'
+      return '******'
     },
     get code() {
       //获取验证码
